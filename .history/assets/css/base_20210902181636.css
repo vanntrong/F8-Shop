@@ -4,10 +4,6 @@
   --text-color: #333;
   --primary-color: #ee4d2d;
   --border-color: #bdbdbd;
-
-  --header-height: 120px;
-  --navbar-height: 34px;
-  --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
@@ -74,8 +70,6 @@ html {
 }
 
 .modal__body {
-  --growth-from: 0.7;
-  --growth-to: 1;
   margin: auto;
   z-index: 1;
   animation: growth linear 0.1s;

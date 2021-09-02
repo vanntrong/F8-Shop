@@ -389,7 +389,6 @@
 .header__cart-wrap {
   display: inline-block;
   padding: 0 12px;
-  cursor: pointer;
 }
 
 .header__cart-wrap:hover .header__cart-list {
@@ -411,7 +410,6 @@
   border-radius: 2px;
   box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
   display: none;
-  animation: faceIn ease-in 0.2s;
 }
 
 .header__cart-list::after {
