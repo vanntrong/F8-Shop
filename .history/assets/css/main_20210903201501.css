@@ -41,7 +41,7 @@
 }
 
 .header__navbar-user-name {
-  margin-left: 4px;
+  margin-left: 8px;
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -81,10 +81,6 @@
 }
 
 .header__navbar-user-item {
-}
-
-.header__navbar-user-item--separate {
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .header__navbar-user-item a {
@@ -457,11 +453,6 @@
   width: 200px;
 }
 
-.header__logo-link {
-  text-decoration: none;
-  color: transparent;
-}
-
 .header__logo-img {
   width: 150px;
 }
@@ -709,7 +700,7 @@
   margin-top: 16px;
   position: absolute;
   right: 0;
-  top: calc(100% - 1px);
+  top: 100%;
   width: 130px;
   list-style: none;
   box-shadow: 0 1px 2px #eeebeb;
