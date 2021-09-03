@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: space-between;
   transform: translateY(-10px);
-  position: relative;
   z-index: 2;
 }
 
