@@ -953,7 +953,7 @@
   color: var(--text-color);
   line-height: 1.8rem;
   height: 3.6rem;
-  margin: 10px;
+  margin: 10px 10px 6px;
   overflow: hidden;
   display: block;
   /* tao dau 3 cham neu text dai */
@@ -984,7 +984,7 @@
 .home-product-item__action {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 6px 10px 0;
 }
 
 .home-product-item__like {
@@ -1023,10 +1023,8 @@ i.home-product-item__like-icon-fill {
 .home-product-item__origin {
   display: flex;
   justify-content: space-between;
-  margin: 3px 10px 0;
+  margin: 0 10px;
   color: #595959;
-  font-size: 1.2rem;
-  font-weight: 300;
 }
 
 .home-product-item__brand {

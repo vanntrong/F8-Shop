@@ -935,114 +935,35 @@
 
 /* product item */
 .home-product-item {
-  margin-top: 10px;
-  background-color: var(--white-color);
 }
-
 .home-product-item__img {
   padding-top: 100%;
-  background-repeat: no-repeat;
-  /* fix img no full */
-  background-size: contain;
-  background-position: center;
 }
-
 .home-product-item-name {
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: var(--text-color);
-  line-height: 1.8rem;
-  height: 3.6rem;
-  margin: 10px;
-  overflow: hidden;
-  display: block;
-  /* tao dau 3 cham neu text dai */
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
 }
-
-.home-product-item-price {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
+.home-product-item-prive {
 }
-
 .home-product-item-price-old {
-  font-size: 1.4rem;
-  color: #666;
-  text-decoration: line-through;
-  margin-left: 10px;
 }
-
 .home-product-item-price-current {
-  font-size: 1.6rem;
-  color: var(--primary-color);
-  margin-left: 10px;
 }
-
 .home-product-item__action {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px;
 }
-
 .home-product-item__like {
-  font-size: 1.4rem;
 }
-
-i.home-product-item__like-icon-fill {
-  display: none;
-  color: #f63d30;
-}
-
-.home-product-item__like--liked .home-product-item__like-icon-fill {
-  display: inline-block;
-}
-
-.home-product-item__like--liked .home-product-item__like-icon-empty {
-  display: none;
-}
-
 .home-product-item__rating {
-  font-size: 0.6rem;
-  color: #d5d5d5;
-  margin: 4px 0 0 auto;
 }
-
-.home-product-item__gold {
-  color: var(--start-gold-color);
-}
-
-.home-product-item__sold {
-  font-size: 1.2rem;
-  color: var(--text-color);
-  margin-left: 6px;
-}
-
 .home-product-item__origin {
-  display: flex;
-  justify-content: space-between;
-  margin: 3px 10px 0;
-  color: #595959;
-  font-size: 1.2rem;
-  font-weight: 300;
 }
-
 .home-product-item__brand {
 }
-
 .home-product-item__origin-name {
 }
-
 .home-product-item__favourite {
 }
-
 .home-product-item__sale-off {
 }
-
 .home-product-item__sale-off-percent {
 }
-
 .home-product-item__sale-off-label {
 }

@@ -4,7 +4,6 @@
   --text-color: #333;
   --primary-color: #ee4d2d;
   --border-color: #bdbdbd;
-  --start-gold-color: #ffce3e;
 
   --header-height: 120px;
   --navbar-height: 34px;
@@ -35,25 +34,18 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 
 .grid__column-2 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
   width: 16.6667%;
 }
-
-.grid__column-2-4 {
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 20%;
-}
-
 .grid__column-10 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
   width: 83.3334%;
 }
 
@@ -146,15 +138,12 @@ html {
   height: 34px;
   padding: 0 12px;
   border-radius: 2px;
+  min-width: 120px;
   background-color: var(--white-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-}
-
-.select-input:hover .select-input__list {
-  display: block;
 }
 
 .select-input__label {
@@ -170,22 +159,7 @@ html {
   position: absolute;
   left: 0;
   right: 0;
-  top: 35px;
+  top: 100%;
   border-radius: 2px;
   background-color: var(--white-color);
-  padding: 10px 16px;
-  list-style: none;
-  display: none;
-}
-
-.select-input__link {
-  text-decoration: none;
-  font-size: 1.4rem;
-  color: var(--text-color);
-  display: block;
-  padding: 8px 0;
-}
-
-.select-input__link:hover {
-  color: var(--primary-color);
 }

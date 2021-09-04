@@ -4,7 +4,6 @@
   --text-color: #333;
   --primary-color: #ee4d2d;
   --border-color: #bdbdbd;
-  --start-gold-color: #ffce3e;
 
   --header-height: 120px;
   --navbar-height: 34px;
@@ -35,25 +34,18 @@ html {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 
 .grid__column-2 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
   width: 16.6667%;
 }
-
-.grid__column-2-4 {
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 20%;
-}
-
 .grid__column-10 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
   width: 83.3334%;
 }
 
@@ -153,10 +145,6 @@ html {
   position: relative;
 }
 
-.select-input:hover .select-input__list {
-  display: block;
-}
-
 .select-input__label {
   font-size: 1.4rem;
 }
@@ -173,9 +161,8 @@ html {
   top: 35px;
   border-radius: 2px;
   background-color: var(--white-color);
-  padding: 10px 16px;
+  padding: 8px 16px;
   list-style: none;
-  display: none;
 }
 
 .select-input__link {
@@ -183,9 +170,5 @@ html {
   font-size: 1.4rem;
   color: var(--text-color);
   display: block;
-  padding: 8px 0;
-}
-
-.select-input__link:hover {
-  color: var(--primary-color);
+  padding: 4px 0;
 }
