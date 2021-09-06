@@ -1221,16 +1221,3 @@ i.home-product-item__like-icon-fill {
   color: transparent;
   margin-bottom: 12px;
 }
-
-.footer__bottom {
-  padding: 8px 0;
-  background-color: #f5f5f5;
-  margin-top: 36px;
-}
-
-.footer__text {
-  text-align: center;
-  margin: 0;
-  font-size: 1.4rem;
-  color: #737373;
-}

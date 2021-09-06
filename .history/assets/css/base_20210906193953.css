@@ -196,30 +196,12 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
 }
 .pagination-item {
-  margin: 0 12px;
 }
-
-.pagination-item__active .pagination-item__link {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
-
-.pagination-item__active .pagination-item__link:hover {
-  background-color: #ed5c3f;
-}
-
 .pagination-item__link {
   text-decoration: none;
-  font-size: 2rem;
-  font-weight: 300;
-  color: #939393;
-  display: block;
-  min-width: 40px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 2px;
+  font-size: 1.6rem;
+}
+.pagination-item__icon {
 }

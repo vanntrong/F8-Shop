@@ -199,16 +199,12 @@ html {
   list-style: none;
 }
 .pagination-item {
-  margin: 0 12px;
+  margin: 0 16px;
 }
 
 .pagination-item__active .pagination-item__link {
   background-color: var(--primary-color);
   color: var(--white-color);
-}
-
-.pagination-item__active .pagination-item__link:hover {
-  background-color: #ed5c3f;
 }
 
 .pagination-item__link {
@@ -222,4 +218,6 @@ html {
   line-height: 30px;
   text-align: center;
   border-radius: 2px;
+}
+.pagination-item__icon {
 }
